@@ -71,7 +71,7 @@ body {
   cursor: pointer;
   border-radius: .2em;
   color: #333;
-  position: absolute;
+  position: sticky;
   right: 20%;
   bottom: 10%;
 }
