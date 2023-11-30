@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function startMultiPlayer() {
     const socket = io();
 
-    // Get your player number
+    // Unirse
     socket.on('player-number', num => {
       if (num === -1) {
         infoDisplay.innerHTML = "El servidor está lleno"
